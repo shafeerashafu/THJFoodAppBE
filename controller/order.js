@@ -22,8 +22,8 @@ const createOrder = async (req, res) => {
         },
       ],
       mode: "payment",
-      success_url: "http://localhost:5174/success",
-      cancel_url: "http://localhost:5174/cancel",
+      success_url: "https://fooddelapplication.netlify.app/success",
+      cancel_url: "https://fooddelapplication.netlify.app/cancel",
     });
 
     if (session.id) {
